@@ -19,6 +19,8 @@ export const createTodo = async (req: Request, res: Response) => {
             data: {
                 task,
                 done,
+                createdAt: new Date(),
+                updatedAt: new Date()
             },
         });
         res.json(todo);
@@ -50,7 +52,7 @@ export const deleteTodo = async (req: Request, res: Response) => {
         await prisma.todo.delete({
             where: { id: parseInt(id) },
         });
-        res.json({ message: 'To-Do item deleted' });
+        res.json({ message: `To-Do item ${id} deleted` });
     } catch (err) {
         res.status(500).json({ error: 'Internal server error' });
     }
