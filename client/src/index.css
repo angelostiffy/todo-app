@@ -38,6 +38,15 @@ form button {
   transition: all 0.3s ease;
 }
 
+.cancel-button {
+  color: #f70404;
+}
+
+.cancel-button:hover {
+  color: white !important;
+  background: #f70404 !important;
+}
+
 form button:hover {
   background: #ff6f47;
   color: white;
@@ -50,7 +59,7 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 45vw;
+  min-width: 45%;
   list-style: none;
   border: 1px solid #ccc !important;
   border-radius: 16px;

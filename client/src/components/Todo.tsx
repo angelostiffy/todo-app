@@ -57,7 +57,7 @@ const Todo: React.FC<TodoType> = ({ todo, todos, setTodos }) => {
                         <button onClick={saveEdit} className="todo-button" type="submit">
                             <i className="fas fa-plus-square"></i>
                         </button>
-                        <button onClick={cancelEdit} className="todo-button" type="button">
+                        <button onClick={cancelEdit} className="cancel-button" type="button">
                             <i className="fas fa-ban"></i>
                         </button>
                     </form>
