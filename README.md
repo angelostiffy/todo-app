@@ -12,6 +12,18 @@ Clone the repository
   git clone https://github.com/angelostiffy/todo-app.git
 ```
 
+After cloning, make sure that the branch is set to main. You can check it by doing the following:
+```bash
+  git branch
+```
+![image](https://github.com/angelostiffy/todo-app/assets/27817501/1642d304-3a01-46c0-9e1f-a786c074294d)
+
+If not, change the branch to main
+```bash
+  git chcekout main
+```
+
+
 Inside the todo-app repository, go to the server folder and install its dependencies
 ```bash
   cd server
