@@ -20,7 +20,7 @@ After cloning, make sure that the branch is set to main. You can check it by doi
 
 If not, change the branch to main
 ```bash
-  git chcekout main
+  git checkout main
 ```
 
 
