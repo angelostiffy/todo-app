@@ -4,8 +4,6 @@
 A simple Todo application using React, NodeJS, Prisma, MySQL
 
 
-
-
 ## Installation
 
 Clone the repository
@@ -53,3 +51,5 @@ Go to the client folder, install its dependencies, and start the client
 ```
 
 You can access the application at: http://localhost:5173/
+
+![image](https://github.com/angelostiffy/todo-app/assets/27817501/b2f81792-701e-40c0-9d4e-d13b7b32542f)
